@@ -20,8 +20,8 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 🏆 Top Repositories  
 
-[![Repo Name](https://github.com/guedera/Rockets)  
-[![Repo Name](https://github.com/guedera/matmultegk)]  
+[![Rockets](https://github.com/guedera/Rockets)  
+[![MatMultEGK](https://github.com/guedera/matmultegk)]  
 
 ## 📫 Let's Connect!  
 
