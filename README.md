@@ -20,8 +20,8 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 🏆 Top Repositories  
 
-[![Rockets](https://github.com/guedera/Rockets)  
-[![MatMultEGK](https://github.com/guedera/matmultegk)]  
+[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=repo-name&theme=radical)]([https://github.com/guedera/repo-name](https://github.com/guedera/Rockets))  
+[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=repo-name&theme=radical)]([https://github.com/guedera/repo-name](https://github.com/guedera/matmultegk))  
 
 ## 📫 Let's Connect!  
 
