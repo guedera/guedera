@@ -10,9 +10,9 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 💻 Technologies & Tools  
 
-- **Languages:** Python, Java, JavaScript, C
+- **Languages:** Python, Java, JavaScript, C  
 - **AI & Robotics:** Machine Learning, Deep Learning, ROS  
-- **Web & Backend:** Django, Node.js, Express
+- **Web & Backend:** Django, Node.js, Express  
 
 ## 📈 GitHub Stats  
 
@@ -20,8 +20,8 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 🏆 Top Repositories  
 
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=repo-name&theme=radical)]((https://github.com/guedera/Rockets))  
-[![Repo Name](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=repo-name&theme=radical)]((https://github.com/guedera/matmultegk))  
+[![Rockets](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=Rockets&theme=radical)](https://github.com/guedera/Rockets)  
+[![matmultegk](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=matmultegk&theme=radical)](https://github.com/guedera/matmultegk)  
 
 ## 📫 Let's Connect!  
 
