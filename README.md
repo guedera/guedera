@@ -5,7 +5,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 ## 🚀 About Me  
 
 - 🤖 Exploring the world of AI and robotics.  
-- 💻 Focused on Python and Java to build smart solutions.  
+- 💻 Focused on Python and Java.  
 - 🎵 I enjoy making music in my free time.   
 
 ## 💻 Technologies & Tools  
