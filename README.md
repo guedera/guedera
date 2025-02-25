@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Guedera!  
  
-Welcome to my GitHub! I'm passionate about software development, AI, and robotics. Always learning, building, and sharing knowledge.  
+Welcome to my GitHub! I'm passionate about software development, AI, and robotics. Always building something!  
 
 ## 🚀 About Me  
 
@@ -12,7 +12,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 - **Languages:** Python, Java, JavaScript, C  
 - **AI & Robotics:** Machine Learning, Deep Learning, ROS  
-- **Web & Backend:** Django, Node.js, Express  
+- **Web & Backend:** Django, Node.js, SQL/Lite
 
 ## 📈 GitHub Stats  
 
