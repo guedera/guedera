@@ -9,9 +9,8 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 💻 Technologies & Tools  
 
-- **Languages:** Python, Java, JavaScript, C  
-- **AI & Robotics:** Machine Learning, Deep Learning, ROS  
-- **Web & Backend:** Django, Node.js, SQL/Lite
+- **Languages:** Python, Java, JavaScript, C, Assembly
+- **Favorite Subjects:** Machine Learning, Deep Learning, RTOS
 
 ## 📫 Let's Connect!  
 
