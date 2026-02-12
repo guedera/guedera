@@ -13,12 +13,6 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 - **AI & Robotics:** Machine Learning, Deep Learning, ROS  
 - **Web & Backend:** Django, Node.js, SQL/Lite
 
-## 📈 GitHub Stats  
-
-
-## 🏆 Top Repositories  
-
-
 ## 📫 Let's Connect!  
 
 <p>
