@@ -15,7 +15,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 📈 GitHub Stats  
 
-![Guedera's GitHub stats](https://github-readme-stats.vercel.app/api?username=guedera&show_icons=true&theme=radical)  
+![Guedera's GitHub stats](https://github-readme-stats.vercel.app/api?username=guedera&show_icons=true&theme=radical&count_private=true&include_all_commits=true)  
 
 ## 🏆 Top Repositories  
 
