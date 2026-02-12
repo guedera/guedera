@@ -15,15 +15,16 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 📈 GitHub Stats  
 
-![Guedera's GitHub stats](https://github-readme-stats.vercel.app/api?username=guedera&show_icons=true&theme=radical)  
 
 ## 🏆 Top Repositories  
 
-[![Rockets](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=Rockets&theme=radical)](https://github.com/guedera/Rockets)  
-[![matmultegk](https://github-readme-stats.vercel.app/api/pin/?username=guedera&repo=matmultegk&theme=radical)](https://github.com/guedera/matmultegk)  
 
 ## 📫 Let's Connect!  
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/guilherme-guedes-026395198/)  
+<p>
+  <a href="https://www.linkedin.com/in/guilherme-guedes-026395198/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
 
 Thanks for stopping by! 🚀  
