@@ -24,7 +24,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=guedera&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guedera&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=guedera&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 
 <p align="center">
