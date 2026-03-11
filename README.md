@@ -28,7 +28,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=guedera&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?username=guedera&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 Thanks for stopping by! 🚀  
