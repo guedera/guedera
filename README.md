@@ -10,7 +10,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 ## 💻 Technologies & Tools  
 
 - **Languages:** Python, Java, JavaScript, C, Assembly
-- **Favorite Subjects:** Machine Learning, Deep Learning, Data Science
+- **Favorite Subjects:** Machine Learning, Deep Learning, Data Science, DBMS, SQL
 
 ## 📫 Let's Connect!  
 
