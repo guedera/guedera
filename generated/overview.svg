@@ -1,0 +1,19 @@
+<svg width="450" height="195" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .bg { fill: #1a1b27; rx: 10; }
+  text { font-family: 'Segoe UI', sans-serif; fill: #a9b1d6; }
+  .title { font-size: 14px; font-weight: bold; fill: #70a5fd; }
+  .label { font-size: 12px; fill: #a9b1d6; }
+  .value { font-size: 12px; fill: #e0def4; font-weight: bold; }
+</style>
+<rect width="450" height="195" rx="10" fill="#1a1b27"/>
+<text x="25" y="35" class="title">📊 guedera's GitHub Stats</text>
+<text x="25" y="70" class="label">⭐ Total Stars Earned:</text>
+<text x="300" y="70" class="value">5</text>
+<text x="25" y="100" class="label">📝 Total Commits (2025):</text>
+<text x="300" y="100" class="value">145</text>
+<text x="25" y="130" class="label">🔀 Pull Requests:</text>
+<text x="300" y="130" class="value">6</text>
+<text x="25" y="160" class="label">🐛 Issues:</text>
+<text x="300" y="160" class="value">3</text>
+</svg>
