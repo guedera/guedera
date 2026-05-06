@@ -12,7 +12,7 @@
 <text x="25" y="70" class="label">⭐ Total Stars Earned:</text>
 <text x="300" y="70" class="value">5</text>
 <text x="25" y="100" class="label">📝 Total Commits (2026):</text>
-<text x="300" y="100" class="value">153</text>
+<text x="300" y="100" class="value">157</text>
 <text x="25" y="130" class="label">🔀 Pull Requests:</text>
 <text x="300" y="130" class="value">6</text>
 <text x="25" y="160" class="label">🐛 Issues:</text>
