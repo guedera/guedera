@@ -30,9 +30,9 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://readme-stats.clehrmann.de/api?username=guedera&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/guedera/guedera/main/generated/overview.svg" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://readme-stats.clehrmann.de/api/top-langs?username=guedera&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/guedera/guedera/main/generated/languages.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
