@@ -38,6 +38,10 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
   <img src="https://streak-stats.demolab.com/?user=guedera&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=guedera&theme=tokyo-night&hide_border=false&border_color=ffffff30" alt="Activity Graph" />
+</p>
+
 ## 📫 Let's Connect!
 
 <p>
