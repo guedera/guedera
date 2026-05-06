@@ -29,11 +29,10 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<div align="center">
   <img src="https://raw.githubusercontent.com/guedera/guedera/main/generated/overview.svg" alt="GitHub Stats" />
-  &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/guedera/guedera/main/generated/languages.svg" alt="Top Languages" />
-</p>
+</div>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=guedera&theme=tokyonight" alt="GitHub Streak" />
