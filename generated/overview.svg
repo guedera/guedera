@@ -7,11 +7,12 @@
   .value { font-size: 12px; fill: #e0def4; font-weight: bold; }
 </style>
 <rect width="450" height="195" rx="10" fill="#1a1b27"/>
+<rect width="449" height="194" x="0.5" y="0.5" rx="10" fill="none" stroke="white" stroke-width="0.5" stroke-opacity="0.3"/>
 <text x="25" y="35" class="title">📊 guedera's GitHub Stats</text>
 <text x="25" y="70" class="label">⭐ Total Stars Earned:</text>
 <text x="300" y="70" class="value">5</text>
-<text x="25" y="100" class="label">📝 Total Commits (2025):</text>
-<text x="300" y="100" class="value">145</text>
+<text x="25" y="100" class="label">📝 Total Commits (2026):</text>
+<text x="300" y="100" class="value">150</text>
 <text x="25" y="130" class="label">🔀 Pull Requests:</text>
 <text x="300" y="130" class="value">6</text>
 <text x="25" y="160" class="label">🐛 Issues:</text>
