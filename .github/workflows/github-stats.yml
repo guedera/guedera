@@ -1,6 +1,9 @@
 name: GitHub Stats
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
@@ -14,16 +17,121 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: jstrieb/github-stats@master
+      - name: Generate stats images
+        uses: anmol098/waka-readme-stats@master
+        continue-on-error: true
+
+      - name: Generate GitHub Stats SVGs
+        run: |
+          pip install requests python-dotenv
+          cat << 'EOF' > generate_stats.py
+          import requests, os, re
+
+          token = os.environ["ACCESS_TOKEN"]
+          username = "guedera"
+          headers = {"Authorization": f"bearer {token}"}
+
+          # Fetch stats via GitHub GraphQL
+          query = """
+          {
+            user(login: "%s") {
+              name
+              repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+                nodes {
+                  stargazers { totalCount }
+                  languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                    edges { size node { name color } }
+                  }
+                }
+              }
+              contributionsCollection {
+                totalCommitContributions
+                totalPullRequestContributions
+                totalIssueContributions
+              }
+            }
+          }
+          """ % username
+
+          r = requests.post("https://api.github.com/graphql", json={"query": query}, headers=headers)
+          data = r.json()["data"]["user"]
+
+          stars = sum(n["stargazers"]["totalCount"] for n in data["repositories"]["nodes"])
+          commits = data["contributionsCollection"]["totalCommitContributions"]
+          prs = data["contributionsCollection"]["totalPullRequestContributions"]
+          issues = data["contributionsCollection"]["totalIssueContributions"]
+
+          lang_sizes = {}
+          for repo in data["repositories"]["nodes"]:
+              for edge in repo["languages"]["edges"]:
+                  name = edge["node"]["name"]
+                  color = edge["node"]["color"] or "#ccc"
+                  lang_sizes[name] = lang_sizes.get(name, {"size": 0, "color": color})
+                  lang_sizes[name]["size"] += edge["size"]
+
+          total = sum(v["size"] for v in lang_sizes.values())
+          top_langs = sorted(lang_sizes.items(), key=lambda x: x[1]["size"], reverse=True)[:8]
+
+          os.makedirs("generated", exist_ok=True)
+
+          # Overview SVG
+          overview_svg = f"""<svg width="450" height="195" xmlns="http://www.w3.org/2000/svg">
+          <style>
+            .bg {{ fill: #1a1b27; rx: 10; }}
+            text {{ font-family: 'Segoe UI', sans-serif; fill: #a9b1d6; }}
+            .title {{ font-size: 14px; font-weight: bold; fill: #70a5fd; }}
+            .label {{ font-size: 12px; fill: #a9b1d6; }}
+            .value {{ font-size: 12px; fill: #e0def4; font-weight: bold; }}
+          </style>
+          <rect width="450" height="195" rx="10" fill="#1a1b27"/>
+          <rect width="449" height="194" x="0.5" y="0.5" rx="10" fill="none" stroke="white" stroke-width="0.5" stroke-opacity="0.3"/>
+          <text x="25" y="35" class="title">📊 {username}'s GitHub Stats</text>
+          <text x="25" y="70" class="label">⭐ Total Stars Earned:</text>
+          <text x="300" y="70" class="value">{stars}</text>
+          <text x="25" y="100" class="label">📝 Total Commits (2026):</text>
+          <text x="300" y="100" class="value">{commits}</text>
+          <text x="25" y="130" class="label">🔀 Pull Requests:</text>
+          <text x="300" y="130" class="value">{prs}</text>
+          <text x="25" y="160" class="label">🐛 Issues:</text>
+          <text x="300" y="160" class="value">{issues}</text>
+          </svg>"""
+
+          with open("generated/overview.svg", "w") as f:
+              f.write(overview_svg)
+
+          # Languages SVG
+          bar_y = 90
+          bars = ""
+          labels = ""
+          x = 25
+          bar_width = 400
+          for i, (lang, info) in enumerate(top_langs):
+              pct = info["size"] / total
+              w = pct * bar_width
+              bars += f'<rect x="{x}" y="{bar_y}" width="{w:.1f}" height="8" fill="{info["color"]}" rx="4"/>'
+              x += w
+              row_y = 125 + (i // 2) * 22
+              col_x = 25 if i % 2 == 0 else 230
+              labels += f'<circle cx="{col_x + 5}" cy="{row_y - 4}" r="5" fill="{info["color"]}"/>'
+              labels += f'<text x="{col_x + 15}" y="{row_y}" style="font-size:11px;fill:#a9b1d6;font-family:sans-serif;">{lang} {pct*100:.1f}%</text>'
+
+          langs_svg = f"""<svg width="450" height="{125 + ((len(top_langs)+1)//2)*22 + 15}" xmlns="http://www.w3.org/2000/svg">
+          <rect width="450" height="{125 + ((len(top_langs)+1)//2)*22 + 15}" rx="10" fill="#1a1b27"/>
+          <rect width="449" height="{125 + ((len(top_langs)+1)//2)*22 + 14}" x="0.5" y="0.5" rx="10" fill="none" stroke="white" stroke-width="0.5" stroke-opacity="0.3"/>
+          <text x="25" y="35" style="font-size:14px;font-weight:bold;fill:#70a5fd;font-family:sans-serif;">🗣️ Most Used Languages</text>
+          <rect x="25" y="{bar_y}" width="{bar_width}" height="8" rx="4" fill="#2f3241"/>
+          {bars}
+          {labels}
+          </svg>"""
+
+          with open("generated/languages.svg", "w") as f:
+              f.write(langs_svg)
+
+          print("Stats generated successfully!")
+          EOF
+          python generate_stats.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Move generated files
-        run: |
-          mkdir -p generated
-          cp /tmp/generated/overview.svg generated/overview.svg
-          cp /tmp/generated/languages.svg generated/languages.svg
 
       - name: Commit and push stats
         run: |
