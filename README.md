@@ -5,7 +5,6 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 🚀 About Me
 
-
 - 🤖 Exploring the world of Data Science and Machine Learning
 - 🗄️ Enthusiast of databases, data engineering and cloud engineering
 - 🎵 I enjoy making music in my free time
@@ -30,7 +29,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 ![Data Science](https://img.shields.io/badge/Data%20Science-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
-## 📊 GitHub Stats
+## 📊 Git Stats
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/guedera/guedera/main/generated/overview.svg" alt="GitHub Stats" />
