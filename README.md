@@ -5,6 +5,7 @@ Welcome to my GitHub! I'm passionate about software development, AI, and robotic
 
 ## 🚀 About Me
 
+
 - 🤖 Exploring the world of Data Science and Machine Learning
 - 🗄️ Enthusiast of databases, data engineering and cloud engineering
 - 🎵 I enjoy making music in my free time
