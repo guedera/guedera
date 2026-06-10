@@ -24,7 +24,7 @@
 - 🤖 Building and studying ML models, from classical algorithms to deep neural networks
 - 🗄️ Enthusiast of **databases, data engineering and cloud infrastructure**
 - ☁️ Experienced with AWS, Docker, Terraform and scalable data pipelines
-- 🎵 I enjoy making music in my free time
+- 🎵 I'm really into Formula 1 in my freetime! 
 - 🌎 Based in Brazil 🇧🇷
 
 ---
