@@ -11,9 +11,6 @@
   <a href="https://www.linkedin.com/in/guilherme-guedes-026395198/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:guilhermegalvaoguedes@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
 </p>
 
 ---
@@ -22,6 +19,7 @@
 
 - 🎓 Computer Engineer with a focus on **Data Science & Machine Learning**
 - 🤖 Building and studying ML models, from classical algorithms to deep neural networks
+- 🧠 Currently focused on **AI for automation** — agents, pipelines and intelligent workflows
 - 🗄️ Enthusiast of **databases, data engineering and cloud infrastructure**
 - ☁️ Experienced with AWS, Docker, Terraform and scalable data pipelines
 - 🎵 I'm really into Formula 1 in my freetime! 
