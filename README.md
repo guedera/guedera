@@ -68,6 +68,7 @@
 
 - 🇧🇷 Portuguese — Native
 - 🇺🇸 English — Advanced
+- 🇫🇷 French — Basic
 
 ---
 
