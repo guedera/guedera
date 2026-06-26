@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Computer+Engineer+%F0%9F%96%A5%EF%B8%8F;Data+Science+%26+ML+Enthusiast+%F0%9F%A4%96;Cloud+%26+Data+Engineering+Explorer+%E2%98%81%EF%B8%8F;Always+learning+new+things+%F0%9F%93%9A" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Computer+Engineer+%F0%9F%96%A5%EF%B8%8F;Big+Data+%26+Data+Science+%F0%9F%93%8A;Finance+Automation+Builder+%F0%9F%92%B9;Always+learning+new+things+%F0%9F%93%9A" alt="Typing SVG" />
   </a>
 </div>
 
@@ -17,10 +17,10 @@
 
 ## 🚀 About Me
 
-- 🎓 Computer Engineer with a focus on **Data Science & Machine Learning**
-- 🤖 Building and studying ML models, from classical algorithms to deep neural networks
-- 🧠 Currently focused on **AI for automation** — agents, pipelines and intelligent workflows
-- 🗄️ Enthusiast of **databases, data engineering and cloud infrastructure**
+- 🎓 Computer Engineer with a focus on **Big Data & Data Science**
+- 📊 Currently deep into **Big Data** — distributed processing, data pipelines and large-scale analytics
+- 💹 Dedicating my efforts to **finance automations** — algorithmic strategies, data-driven insights and workflow automation
+- 🤖 Building ML models and intelligent pipelines applied to financial and business problems
 - ☁️ Experienced with AWS, Docker, Terraform and scalable data pipelines
 - 🎵 I'm really into Formula 1 in my freetime! 
 - 🌎 Based in Brazil 🇧🇷
